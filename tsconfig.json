@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "paths": {
+      "@database/*": ["database/*"],
+      "@discord/*": ["discord/*"],
+      "@helpers/*": ["helpers/*"],
+      "@server/*": ["server/*"],
+      "@/*": ["./*"]
+    },
+    "declaration": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/ping
+
+###
+# esto es para cuando alguien hace top en el sv cw
+POST http://localhost:3001/mitico-bot/toptime-create HTTP/1.1
+Content-Type: application/json
+
+{
+  "mapName": "[DM] Cookie ft. Corrupt - Inner Fury 2",
+  "position": 1,
+  "playerName": "TRtam<M>",
+  "time": 0
+}
